@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=SCreen Ruler
+Name[fr]=Règle d'écran
+Comment=
+Comment[fr]=
+Exec=/usr/bin/screenrulerzoom
+Icon=/usr/share/screenrulerzoom/png/screenrulerzoom.png
+Categories=GNOME;System;Utility

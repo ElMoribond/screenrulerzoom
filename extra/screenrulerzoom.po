@@ -1,0 +1,157 @@
+# screenrulerzoom v1.0.
+# Copyright (C) 2015
+# This file is distributed under the same license as the screenrulerzoom package.
+# ElMoribond <elmoribond@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: screenrulerzoom 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-10 19:15+0200\n"
+"PO-Revision-Date: 2015-04-10 19:19+0200\n"
+"Last-Translator:  <elmoribond@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: French\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: screenrulerzoom.py:73
+msgid "Lost in French countryside but reachable"
+msgstr "Perdu dans la campagne française mais joignable"
+
+#: screenrulerzoom.py:79
+msgid "released on"
+msgstr "sortie le"
+
+#: screenrulerzoom.py:80
+msgid "Created by"
+msgstr "Crée par"
+
+#: screenrulerzoom.py:82
+msgid "Released under GNU GPLv3 license"
+msgstr "Sortie sous licence GNU GPLv3"
+
+#: screenrulerzoom.py:84
+msgid "All rights reserved"
+msgstr "Tous droits réservés"
+
+#: screenrulerzoom.py:84
+msgid "This program comes with ABSOLUTELY NO WARRANTY"
+msgstr "Ce programme est fourni SANS AUCUNE GARANTIE"
+
+#: screenrulerzoom.py:84
+msgid ""
+"This is free software, and you are welcome to redistribute it under certain "
+"conditions"
+msgstr "Il s'agit d'un logiciel libre, et vous êtes invité à le redistribuer sous "
+"certaines conditions"
+
+#: screenrulerzoom.py:92
+msgid "Unit Measure"
+msgstr "Unité de Mesure"
+
+#: screenrulerzoom.py:92
+msgid "Ruler Size"
+msgstr "Taille de la Règle"
+
+#: screenrulerzoom.py:92
+msgid "Colors"
+msgstr "Couleurs"
+
+#: screenrulerzoom.py:92
+msgid "Zoom"
+msgstr "Zoom"
+
+#: screenrulerzoom.py:111
+msgid "Exit"
+msgstr "Quitter"
+
+#: screenrulerzoom.py:129
+msgid "About"
+msgstr "A propos"
+
+#: screenrulerzoom.py:129
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: screenrulerzoom.py:129
+msgid "Vertical"
+msgstr "Vertical"
+
+#: screenrulerzoom.py:129
+msgid "Pixel"
+msgstr "Pixel"
+
+#: screenrulerzoom.py:129
+msgid "px"
+msgstr "px"
+
+#: screenrulerzoom.py:129
+msgid "Point"
+msgstr "Point"
+
+#: screenrulerzoom.py:129
+msgid "pt"
+msgstr ""
+
+#: screenrulerzoom.py:129
+msgid "Inch"
+msgstr ""
+
+#: screenrulerzoom.py:129
+msgid "in"
+msgstr "in"
+
+#: screenrulerzoom.py:129
+msgid "Pica"
+msgstr "Pica"
+
+#: screenrulerzoom.py:129
+msgid "pc"
+msgstr "pc"
+
+#: screenrulerzoom.py:129
+msgid "Centimeter"
+msgstr "Centimètre"
+
+#: screenrulerzoom.py:129
+msgid "cm"
+msgstr "cm"
+
+#: screenrulerzoom.py:130
+msgid "Text"
+msgstr "Texte"
+
+#: screenrulerzoom.py:130
+msgid "Background"
+msgstr "Fond"
+
+#: screenrulerzoom.py:130
+msgid "Highlight"
+msgstr "Marqueur"
+
+#: screenrulerzoom.py:130
+msgid "Default Colors"
+msgstr "Couleurs par Défaut"
+
+#: screenrulerzoom.py:131
+msgid "Normal"
+msgstr "Normal"
+
+#: screenrulerzoom.py:131
+msgid "x2"
+msgstr "x2"
+
+#: screenrulerzoom.py:131
+msgid "x3"
+msgstr "x3"
+
+#: screenrulerzoom.py:131
+msgid "x4"
+msgstr "x4"
+
+#: screenrulerzoom.py:132
+msgid "None"
+msgstr "Aucun"

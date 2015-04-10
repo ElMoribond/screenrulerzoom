@@ -1,0 +1,33 @@
+#!/bin/bash
+
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root"
+   exit 1
+fi
+
+echo "Copying files"
+for I in share/screenrulerzoom bin share/applications
+do
+  mkdir -p "/usr/$I"
+done
+for I in LICENSE README.md __init__.py screenrulerzoom.py i18n png uninstall
+do
+  cp -rf $I /usr/share/screenrulerzoom/
+done
+cp -f extra/screenrulerzoom.desktop /usr/share/applications/
+
+echo "Create shortcut"
+chmod +x /usr/share/screenrulerzoom/uninstall
+chmod +x /usr/share/screenrulerzoom/screenrulerzoom.py
+ln -sf /usr/share/screenrulerzoom/screenrulerzoom.py /usr/bin/screenrulerzoom
+
+if [ ${LANG:0:2} != "" ] && [ ${LANG:0:2} != "en" ] && [ ${LANG:0:2} != "fr" ]; then
+  echo
+  echo "This program is not yet translated to your language (${LANG:0:2})."
+  echo "If you wish, you can change that (https://github.com/ElMoribond/screenrulerzoom/blob/master/README.md)."
+fi
+
+echo
+echo "Uninstallable with 'sudo /usr/share/manpagesgui/uninstall'"
+echo
+echo "Installation Complete"
